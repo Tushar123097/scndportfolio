@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Tushar Prajapati | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-content">
+            <div class="logo">
+                <span class="glow-text">Tushar Prajapati</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <!-- <a href="#about">About</a> -->
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <div class="social-dropdown">
+                    <a href="#" class="social-trigger">
+                        Social
+                        <i class="fas fa-chevron-down dropdown-arrow"></i>
+                    </a>
+                    <div class="social-dropdown-content">
+                        <a href="https://leetcode.com/u/bestgamer20/" target="_blank">
+                            <i class="fas fa-code"></i> LeetCode
+                        </a>
+                        <a href="https://www.linkedin.com/in/tushar-prajapati-1ab5b3221/" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/Tushar123097" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="CV...pdf" download>
+                            <i class="fas fa-file-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="glow-text">Software Developer</h1>
+                <p class="subtitle">Crafting Digital Experiences</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+        <div id="particles-js"></div>
+    </section> -->
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p> a passionate and self-motivated Frontend Developer with a strong foundation in HTML, CSS, Tailwind CSS,JavaScript and React.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">max streak</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">250+</span>
+                        <span class="stat-label">onleetcode</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-container">
+                    <div class="profile-image">
+                        <img src="WhatsApp Image 2025-04-13 at 13.59.53_74df3429.jpg" alt="">
+                    </div>
+                    <div class="glow-border"></div>
+                    <div class="floating-elements">
+                        <div class="element element-1">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="element element-2">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="element element-3">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="element element-4">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h3>HTML5</h3>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 95%"></div>
+                </div>
+                <p class="skill-description">Semantic markup, accessibility, and modern HTML5 features</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <h3>CSS3</h3>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <p class="skill-description">Responsive design, animations, and modern CSS features</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-js"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 85%"></div>
+                </div>
+                <p class="skill-description">ES6+, DOM manipulation, and modern frameworks</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-java"></i>
+                </div>
+                <h3>Java</h3>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 80%"></div>
+                </div>
+                <p class="skill-description">Object-oriented programming and enterprise applications</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>My Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Screenshot (118).png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>🏏 CriketX – Cricket Event Landing Page</h3>
+                    <p>CriketX Landing Page – Designed and developed a fully responsive cricket event landing page using HTML, CSS, and JavaScript. </p>
+                    <div class="project-tags">
+                        <span>html5</span>
+                        <span>tailwind css</span>
+                        <span>javascript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://tushar123097.github.io/cricketlandingpage/" target="_blank" class="btn small">View Project</a>
+                        <a href="https://github.com/Tushar123097/cricketlandingpage" target="_blank" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Screenshot (122).png" alt="AI Chatbot">
+                </div>
+                <div class="project-info">
+                    <h3>🌐 3D NeuroNet Landing Page</h3>
+                    <p>3D Animated Landing Page – Created a futuristic, responsive 3D landing page using HTML, CSS, and modern JavaScript libraries like GSAP and Three.js..</p>
+                    <div class="project-tags">
+                        <span>html5</span>
+                        <span>Tailwind css</span>
+                        <span>js</span>
+                        <span>three.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://tushar123097.github.io/NeuroNetlandingpage/" target="_blank" class="btn small">View Project</a>
+                        <a href="https://github.com/Tushar123097/NeuroNetlandingpage" target="_blank" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Screenshot (120).png" alt="Task Manager">
+                </div>
+                <div class="project-info">
+                    <h3>🧠 Modern Quiz App with Timer and Score Tracking</h3>
+                    <p>Modern Quiz App – Developed an interactive, timed quiz application using HTML, CSS, and JavaScript. Implemented real-time score tracking, a countdown timer for each question, and a responsive UI.</p>
+                    <div class="project-tags">
+                        <span>html5</span>
+                        <span>css3</span>
+                        <span>js</span>
+                        <!-- <span>PWA</span> -->
+                    </div>
+                    <div class="project-links">
+                        <a href="https://tushar123097.github.io/modernquizappwithanimation/" target="_blank" class="btn small">View Project</a>
+                        <a href="https://github.com/Tushar123097/modernquizappwithanimation" target="_blank" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get in Touch</h2>
+            <div class="underline"></div>
+        </div>
+        <!-- <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>prajaptit097@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 7307644960</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Your Location</span>
+                </div> -->
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Tushar Prajapati. All rights reserved.</p>
+        </div>
+    </footer> -->
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 
